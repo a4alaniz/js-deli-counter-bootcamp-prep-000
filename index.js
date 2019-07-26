@@ -3,13 +3,6 @@ katzDeli.push(name)
 return `Welcome, ${name}. You are number ${katzDeli.length} in line.`
 }
 
-var numberInLine = 0
-function takeANumber2() {
-numberInLine++
-console.log(`Welcome, you are ticket number ${numberInLine}.`)
-}
-takeANumber2()
-takeANumber2()
 
 function nowServing(katzDeli) {
   if (katzDeli.length === 0) {
